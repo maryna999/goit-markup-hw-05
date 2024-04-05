@@ -439,10 +439,10 @@
         </div>
         <div class="form-container">
           <p class="form-title">Subscribe</p>
-          <form action="" class="footer-form">
+          <form class="footer-form">
             <label class="footer-label">
               <input
-                type="text"
+                type="email"
                 name="subscribe"
                 class="footer-input"
                 placeholder="E-mail"
@@ -459,15 +459,15 @@
       </div>
     </footer>
     <!-----MODAL OVERLAY----->
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
-        <button class="modal-top-button">
+        <button type="button" class="modal-top-button">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-form" action="">
+        <form class="modal-form">
           <div class="modal-label-box">
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-box">
@@ -511,9 +511,7 @@
             </div>
           </div>
           <div class="modal-comment-box">
-            <label class="modal-comment-label" for="user-comment"
-              >Comment</label
-            >
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
               name="user-comment"

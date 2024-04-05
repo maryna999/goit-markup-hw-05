@@ -629,6 +629,7 @@ height: 40px;
 background-color: #4d5ae5;
 border: none;
 align-items: center;
+justify-content: center;
 display: flex;
 min-width: 165px;
 flex-direction: row;
@@ -647,6 +648,7 @@ background-color: #404bbf;
 
 .footer-form-icon{
 fill: #fff;
+margin-left: 16px;
 
 }
 

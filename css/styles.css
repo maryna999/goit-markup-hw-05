@@ -543,23 +543,27 @@ display: flex;
 justify-content: center;
 position: relative;
 flex-direction: column;
-}
-
-.footer-form{
-display: flex;
 margin-left: 80px;
-gap: 24px;
-justify-content: flex-start;
-align-items: center;
 }
 
-.footer-label{
+.form-title {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+}
+
+.footer-form{
+display: flex;
+gap: 24px;
+justify-content: flex-start;
+align-items: center;
+}
+
+.footer-label{
+
 }
 
 .footer-input{
